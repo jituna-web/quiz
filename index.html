@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kvíz</title>
+</head>
+<body>
+    <h1>Vědomostní kvíz</h1>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header"></div>
+        <h2 id="question">Otázka</h2>
+        <ul>
+            <li>
+                <input type="radio" 
+                id="a" 
+                name="answer"
+                class="answer">
+                
+                <label id="a_text" for="a">Otázka</label>
+            </li>
+            <li>
+                <input type="radio" 
+                id="b" 
+                name="answer"
+                class="answer">
+                <label id="b_text" for="b">Otázka</label>
+            </li>
+            <li>
+                <input type="radio" 
+                id="c" 
+                name="answer"
+                class="answer">
+                <label id="c_text" for="c">Otázka</label>
+            </li>
+            <li>
+                <input type="radio" 
+                id="d" name="answer"
+                class="answer">
+                <label id="d_text" for="d">Otázka</label>
+            </li>
+            
+        </ul>
+        <button id="submit">Odeslat</button>
+    </div>
+</body>
+</html>
